@@ -1,9 +1,9 @@
 import { Transport } from '@polkadot/joy-utils/index'
-import { EntityId } from '@joystream/types/versioned-store';
-import { VideoType } from './schemas/video/Video';
-import { FeaturedContentType } from './schemas/general/FeaturedContent';
-import { ChannelEntity } from './entities/ChannelEntity';
-import { isVideoChannel, isPublicChannel } from './channels/ChannelHelpers';
+import { EntityId } from '@joystream/types/versioned-store'
+import { VideoType } from './../../schemas/video/Video'
+import { FeaturedContentType } from "./../../schemas/general/FeaturedContent"
+import { ChannelEntity } from './../../entities/ChannelEntity'
+import { isVideoChannel, isPublicChannel } from './../../channels/ChannelHelpers'
 
 export interface ValidationConstraint {
   min: number
