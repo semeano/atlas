@@ -1,13 +1,22 @@
 {
   "presets": [
-    "react",
-    [
-      "env",
-      {
-        "targets": {
-          "browsers": ["last 2 versions"]
-        }
-      }
-    ]
-  ]
+    "@babel/preset-env",
+    "@babel/preset-react",
+    "@babel/preset-typescript",
+    "@emotion/babel-preset-css-prop"
+  ],
+  // "plugins": [
+  //   [
+  //     "module-resolver",
+  //     {
+  //       "root": ["./src"],
+  //       "alias": {
+  //         "@polkadot/joy-utils": "modules/joy-utils/src",
+  //         "@polkadot/joy-utils/*": "modules/joy-utils/src/*",
+  //         "@joystream/types": "modules/joy-types/src",
+  //         "@joystream/types/*": "modules/joy-types/src/*"
+  //       }
+  //     }
+  //   ]
+  // ]
 }

@@ -18,7 +18,7 @@ export default function App() {
       <Provider store={store}>
         <Router primary={false}>
           <ScrollToTop path="/">
-            <ExploreView path="/" channels={channels} videos={videos} />
+            <ExploreView path="/" />
             <ChannelView
               path="/channels/:channelName"
               channels={channels}
