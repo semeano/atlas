@@ -10,15 +10,18 @@
   "author": "Joystream contributors",
   "maintainers": [],
   "dependencies": {
+    "@polkadot/api-metadata": "^0.96.1",
     "@polkadot/types": "^0.96.1",
     "@types/vfile": "^4.0.0",
-    "ajv": "^6.11.0"
+    "ajv": "^6.11.0",
+    "lodash": "^4.17.15"
   },
   "directories": {
     "lib": "lib"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
+    "@types/lodash": "^4.14.150",
     "typescript": "^3.6.4"
   },
   "engines": {

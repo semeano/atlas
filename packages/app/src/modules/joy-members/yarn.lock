@@ -250,19 +250,10 @@
   dependencies:
     "@babel/runtime" "^7.7.5"
 
-"@polkadot/joy-members@file:../joy-members":
+"@polkadot/joy-utils@file:../joy-utils":
   version "0.1.1"
   dependencies:
     "@babel/runtime" "^7.7.1"
-    "@polkadot/joy-utils" "file:../../../../../../../Library/Caches/Yarn/v6/npm-@polkadot-joy-members-0.1.1-9db6adf6-5b5a-4be7-b1e8-4b4f2b78847d-1588343595237/node_modules/@polkadot/joy-utils"
-    "@polkadot/react-components" "0.37.0-beta.63"
-    "@polkadot/react-query" "0.37.0-beta.63"
-
-"@polkadot/joy-utils@file:.":
-  version "0.1.1"
-  dependencies:
-    "@babel/runtime" "^7.7.1"
-    "@polkadot/joy-members" "file:../../../../../../../Library/Caches/Yarn/v6/npm-@polkadot-joy-utils-0.1.1-b2b28fb2-4378-409b-86c7-e465a12db51f-1588343595906/node_modules/@polkadot/joy-members"
     "@polkadot/react-components" "0.37.0-beta.63"
     "@polkadot/react-query" "0.37.0-beta.63"
     "@types/query-string" "^6.2.0"

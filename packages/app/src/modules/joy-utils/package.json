@@ -8,6 +8,7 @@
   "maintainers": [],
   "dependencies": {
     "@babel/runtime": "^7.7.1",
+    "@polkadot/joy-members": "file:./../joy-members",
     "@polkadot/react-components": "0.37.0-beta.63",
     "@polkadot/react-query": "0.37.0-beta.63",
     "@types/query-string": "^6.2.0",
@@ -22,7 +23,5 @@
     "uuid": "^3.3.2",
     "yup": "^0.26.10"
   },
-  "devDependencies": {
-    "@babel/core": "^7.9.6"
-  }
+  "devDependencies": {}
 }
