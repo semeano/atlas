@@ -5,18 +5,20 @@
     "@babel/preset-typescript",
     "@emotion/babel-preset-css-prop"
   ],
-  // "plugins": [
-  //   [
-  //     "module-resolver",
-  //     {
-  //       "root": ["./src"],
-  //       "alias": {
-  //         "@polkadot/joy-utils": "modules/joy-utils/src",
-  //         "@polkadot/joy-utils/*": "modules/joy-utils/src/*",
-  //         "@joystream/types": "modules/joy-types/src",
-  //         "@joystream/types/*": "modules/joy-types/src/*"
-  //       }
-  //     }
-  //   ]
-  // ]
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "@polkadot/joy-utils": "./src/modules/joy-utils/src",
+          "@polkadot/joy-utils/*": "./src/modules/joy-utils/src/*",
+          "@joystream/types": "./src/modules/joy-types/src",
+          "@joystream/types/*": "./src/modules/joy-types/src/*",
+          "@polkadot/members": "./src/modules/joy-members/src",
+          "@polkadot/members/*": "./src/modules/joy-members/src/*"
+        }
+      }
+    ]
+  ]
 }

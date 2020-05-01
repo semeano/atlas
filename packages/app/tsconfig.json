@@ -5,15 +5,6 @@
     "jsx": "react",
     "declaration": true,
     "declarationDir": "dist",
-    "lib": ["ES2019"],
-    "baseUrl": ".",
-    "paths": {
-      "@polkadot/joy-utils": [ "src/modules/joy-utils/src" ],
-      "@polkadot/joy-utils/*": [ "src/modules/joy-utils/src/*" ],
-      "@joystream/types": [ "src/modules/joy-types/src" ],
-      "@joystream/types/*": [ "src/modules/joy-types/src/*" ],
-      // "@polkadot/react-api": [ "react-api/src" ],
-      // "@polkadot/react-api/*": [ "react-api/src/*" ]
-    }
+    "lib": ["ES2019"]
   }
 }
