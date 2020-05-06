@@ -3,7 +3,7 @@ import { MyAccountProps, withMyAccount } from './MyAccount';
 
 export const MyMembershipContext = createContext<MyAccountProps>({});
 
-function InnerMyMembershipProvider (props: React.PropsWithChildren<MyAccountProps>) {
+function InnerMyMembershipProvider (props: any): any {
   return (
     <MyMembershipContext.Provider value={props}>
       {props.children}
@@ -13,6 +13,6 @@ function InnerMyMembershipProvider (props: React.PropsWithChildren<MyAccountProp
 
 export const MyMembershipProvider = withMyAccount(InnerMyMembershipProvider);
 
-export function useMyMembership () {
+export function useMyMembership (): any {
   return useContext(MyMembershipContext);
 }

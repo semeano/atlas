@@ -6,6 +6,7 @@
     "@emotion/babel-preset-css-prop"
   ],
   "plugins": [
+    "babel-plugin-transform-class-properties",
     [
       "module-resolver",
       {
@@ -13,10 +14,10 @@
         "alias": {
           "@polkadot/joy-utils": "./src/modules/joy-utils/src",
           "@polkadot/joy-utils/*": "./src/modules/joy-utils/src/*",
+          "@polkadot/joy-members": "./src/modules/joy-members/src",
+          "@polkadot/joy-members/*": "./src/modules/joy-members/src/*",
           "@joystream/types": "./src/modules/joy-types/src",
-          "@joystream/types/*": "./src/modules/joy-types/src/*",
-          "@polkadot/members": "./src/modules/joy-members/src",
-          "@polkadot/members/*": "./src/modules/joy-members/src/*"
+          "@joystream/types/*": "./src/modules/joy-types/src/*"
         }
       }
     ]

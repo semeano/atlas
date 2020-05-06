@@ -21,28 +21,28 @@ export default function ExploreView({}: ExploreViewProps) {
 
   const rerenderDeps = [ myAddress ]
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    async function doResolveProps () {
+  //   async function doResolveProps () {
       
-      console.log('Resolving props of media view');
+  //     console.log('Resolving props of media view');
 
-      // Transport session allows us to cache loaded channels, entites and classes
-      // during the render of this view:
-      transport.openSession()
-      const data = await resolveProps(resolverProps)
-      console.log(data)
-      setResolvedProps(data);
-      transport.closeSession()
-      setPropsResolved(true);
-    }
+  //     // Transport session allows us to cache loaded channels, entites and classes
+  //     // during the render of this view:
+  //     transport.openSession()
+  //     const data = await resolveProps(resolverProps)
+  //     console.log(data)
+  //     setResolvedProps(data);
+  //     transport.closeSession()
+  //     setPropsResolved(true);
+  //   }
 
-    if (!transport) {
-      console.error('Transport is not defined');
-    } else {
-      doResolveProps();
-    }
-  }, rerenderDeps);
+  //   if (!transport) {
+  //     console.error('Transport is not defined');
+  //   } else {
+  //     doResolveProps();
+  //   }
+  // }, rerenderDeps);
 
   const resolveProps = async ({ transport }) => {
     const [
